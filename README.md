@@ -68,7 +68,7 @@ The Hard Debiasing technique is an effective approach to address gender bias in 
 For more details on the Hard Debiasing technique and its effectiveness, please refer to the original research paper: Hard Debiasing Word Embeddings and Fairness in Word Analogy Tasks.
 ## Results
 
-my analysis provides an in-depth comparison of different word embeddings on word analogy tasks. We also demonstrate the effectiveness of the Hard Debiasing technique in reducing gender bias in the embeddings. The results are presented in a clear and visually appealing manner through tables and plots.
+My analysis provides an in-depth comparison of different word embeddings on word analogy tasks. I also demonstrate the effectiveness of the Hard Debiasing technique in reducing gender bias in the embeddings. The results are presented in a clear and visually appealing manner through tables and plots.
 
 
 ## How to Use
@@ -82,7 +82,7 @@ To get started with this project, follow these steps:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE), allowing you to use, modify, and distribute the code freely.
+This is under the "do whatever you want license".
 
 Let's make NLP more inclusive and bias-free together!
 

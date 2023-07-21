@@ -22,11 +22,16 @@ Word embeddings have revolutionized NLP tasks by converting words into numerical
 
 ## Word Analogy Tasks
 
-To assess the quality of word embeddings, I employ word analogy tasks. These tasks typically take the form of word analogies like "a is to b as c is to __." By understanding the relationships betIen words, I can predict the missing word. We have curated a set of diverse analogy tasks to evaluate the performance of word embeddings.
+To assess the quality of word embeddings, I employ word analogy tasks. These tasks typically take the form of word analogies like "a is to b as c is to __." By understanding the relationships betIen words, I can predict the missing word. We have curated a set of diverse analogy tasks to evaluate the performance of word embeddings. We will be using the google analogy dataset.
+
+Link `https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art)`
 
 ## Word Embeddings
 
 The repository includes pre-trained word embeddings using popular algorithms like Word2Vec, GloVe, and FastText. Each embedding captures different linguistic patterns and contexts. We provide detailed information about the embeddings, including their dimensions, vocabulary size, and training corpora sources.
+The embeddings are trained on the IMDB movie reviews dataset
+
+Link:`https://ai.stanford.edu/~amaas/data/sentiment/`
 
 ## Evaluation
 

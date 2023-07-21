@@ -77,9 +77,8 @@ To get started with this project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/ChaitanyaKatti/debiased-word-embeddings.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
-3. Explore the word embeddings and their properties in the `embeddings` directory.
-4. Run the word analogy evaluation script: `python evaluate_word_analogy.py`
-5. Experiment with the Hard Debiasing implementation: `python hard_debias.py`
+3. Explore the word embeddings and their properties in the `data` directory.
+4. Run the word analogy evaluation script: `python movie_data_project.ipynb`
 
 ## License
 

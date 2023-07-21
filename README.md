@@ -14,8 +14,7 @@ Welcome to my GitHub repository! This project focuses on the analysis of various
 5. [Hard Debiasing](#hard-debiasing)
 6. [Results](#results)
 7. [How to Use](#how-to-use)
-8. [Contributing](#contributing)
-9. [License](#license)
+8. [License](#license)
 
 ## Introduction
 

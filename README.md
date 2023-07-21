@@ -71,7 +71,7 @@ my analysis provides an in-depth comparison of different word embeddings on word
 
 To get started with this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Chaitanya-Katti/debiased-word-embeddings.git`
+1. Clone the repository: `git clone https://github.com/ChaitanyaKatti/debiased-word-embeddings.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Explore the word embeddings and their properties in the `embeddings` directory.
 4. Run the word analogy evaluation script: `python evaluate_word_analogy.py`

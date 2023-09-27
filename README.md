@@ -65,7 +65,7 @@ To use the Hard Debiasing implementation, follow the steps in the How to Use sec
 
 The Hard Debiasing technique is an effective approach to address gender bias in word embeddings, making them more suitable for various NLP applications and promoting fairness in AI systems.
 
-For more details on the Hard Debiasing technique and its effectiveness, please refer to the original research paper: Hard Debiasing Word Embeddings and Fairness in Word Analogy Tasks.
+For more details on the Hard Debiasing technique and its effectiveness, please refer to the original research paper: *Double-Hard Debias: Tailoring Word Embeddings for Gender Bias Mitigation*. https://arxiv.org/pdf/2005.00965.pdf
 ## Results
 
 My analysis provides an in-depth comparison of different word embeddings on word analogy tasks. I also demonstrate the effectiveness of the Hard Debiasing technique in reducing gender bias in the embeddings. The results are presented in a clear and visually appealing manner through tables and plots.

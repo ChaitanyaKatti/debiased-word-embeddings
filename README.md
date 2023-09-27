@@ -18,31 +18,31 @@ Welcome to my GitHub repository! This project focuses on the analysis of various
 
 ## Introduction
 
-Word embeddings have revolutionized NLP tasks by converting words into numerical representations. These embeddings capture semantic and syntactic relationships betIen words, allowing us to perform analogical reasoning, such as "king - man + woman = queen." This project aims to analyze various word embeddings using word analogy tasks and apply Hard Debiasing to mitigate any gender bias present in the embeddings.
+Word embeddings have revolutionized NLP tasks by converting words into numerical representations. These embeddings capture semantic and syntactic relationships between words, allowing us to perform analogical reasoning, such as "king - man + woman = queen." This project aims to analyze various word embeddings using word analogy tasks and apply Hard debasing to mitigate any gender bias present in the embeddings.
 
 ## Word Analogy Tasks
 
-To assess the quality of word embeddings, I employ word analogy tasks. These tasks typically take the form of word analogies like "a is to b as c is to __." By understanding the relationships betIen words, I can predict the missing word. We have curated a set of diverse analogy tasks to evaluate the performance of word embeddings. We will be using the google analogy dataset.
+To assess the quality of word embeddings, I used word analogy tasks. These tasks typically take the form of word analogies like "a is to b as c is to __." By understanding the relationships between words, we can predict the missing word. I have curated a set of diverse analogy tasks to evaluate the performance of word embeddings. I will be using the Google analogy dataset.
 
-Link `https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art)`
+Link: `https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art)`
 
 ## Word Embeddings
 
-The repository includes pre-trained word embeddings using popular algorithms like Word2Vec, GloVe, and FastText. Each embedding captures different linguistic patterns and contexts. We provide detailed information about the embeddings, including their dimensions, vocabulary size, and training corpora sources.
+The repository includes pre-trained word embeddings using popular algorithms like Word2Vec, GloVe, and FastText. Each embedding captures different linguistic patterns and contexts.
 The embeddings are trained on the IMDB movie reviews dataset
 
-Link:`https://ai.stanford.edu/~amaas/data/sentiment/`
+Link: `https://ai.stanford.edu/~amaas/data/sentiment/`
 
 ## Evaluation
 
-We have developed an evaluation pipeline to test the word embeddings on the analogy tasks. The results are compared based on accuracy and speed of inference. Additionally, I visualize the embeddings using t-SNE and other dimensionality reduction techniques to gain insights into their clustering behavior.
+I have developed an evaluation pipeline to test the word embeddings on the analogy tasks. The results are compared based on accuracy and speed of inference. Additionally, I visualized the embeddings using t-SNE and other dimensionality reduction techniques to gain insights into their clustering behavior.
 
 ![image](https://github.com/ChaitanyaKatti/debiased-word-embeddings/assets/96473570/7e397857-a604-4480-acf7-fcc0f29af57c)
 
 
 ## Hard Debiasing
 
-One significant concern with word embeddings is the potential presence of gender bias, which can be reflected in analogies or downstream NLP tasks. We address this issue by implementing the Hard Debiasing technique. This method aims to neutralize gender-specific information from the embeddings without significantly altering their semantic properties.
+One significant concern with word embeddings is the potential presence of gender bias, which can be reflected in analogies or downstream NLP tasks. I address this issue by implementing the Hard Debiasing technique. This method aims to neutralize gender-specific information from the embeddings without significantly altering their semantic properties.
 
 
 ### Gender Bias in Word Embeddings
@@ -56,7 +56,7 @@ The Hard Debiasing technique aims to neutralize gender-specific information in w
 2. Neutralize Gender Bias: In this step, the embeddings of gender-specific words (e.g., "he" and "she") are projected onto the hyperplane perpendicular to the gender direction. By doing this, the gender information is removed from these specific words, effectively neutralizing the gender bias in the embeddings.
 
 ### Preserving Semantic Information
-It is important to note that the Hard Debiasing technique aims to neutralize gender bias while preserving the semantic information captured by the embeddings. It ensures that the relationships betIen words and the overall structure of the embedding space remain intact.
+It is important to note that the Hard Debiasing technique aims to neutralize gender bias while preserving the semantic information captured by the embeddings. It ensures that the relationships between words and the overall structure of the embedding space remain intact.
 
 ### Implementation
 In this repository, I have included an implementation of the Hard Debiasing technique. You can find the debiasing script in the hard_debias.py file. By running this script on your word embeddings, you can mitigate gender bias and make your embeddings more inclusive.
